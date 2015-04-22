@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Maybe You Shouldn't</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Maybe You Shouldn't</h1>
+    <h3 class="date"></h3>
+</section>
+
+<section class="slide level6">
+
+<figure>
+<img src="images/brandon.jpg" alt="This is Brandon" /><figcaption>This is Brandon</figcaption>
+</figure>
+</section>
+<section class="slide level6">
+
+<figure>
+<img src="images/david.jpg" alt="This is David" /><figcaption>This is David</figcaption>
+</figure>
+</section>
+<section class="slide level6">
+
+<figure>
+<img src="images/small-david.jpeg" alt="&quot;Every time you say &#39;you should&#39; it makes me want to punch you in the face!&quot;" /><figcaption>&quot;Every time you say 'you should' it makes me want to punch you in the face!&quot;</figcaption>
+</figure>
+</section>
+<section class="slide level6">
+
+<blockquote>
+<p><strong>should</strong>:<br />1. used to indicate obligation, duty, or <strong><em>correctness</em></strong>, typically when criticizing someone's actions.</p>
+</blockquote>
+</section>
+<section><section id="example-1" class="titleslide slide level1"><h1>Example 1</h1></section><section class="slide level6">
+
+<p>&quot;You should move that logic out of the controller&quot;</p>
+</section><section class="slide level6">
+
+<p><strong>Instead Try:</strong></p>
+<p>&quot;This controller would have fewer responsibilities if we moved this logic out&quot;</p>
+</section></section>
+<section><section id="example-2" class="titleslide slide level1"><h1>Example 2</h1></section><section class="slide level6">
+
+<p>&quot;You should move this class into its own file.&quot;</p>
+</section><section class="slide level6">
+
+<p><strong>Instead Try:</strong></p>
+<p>&quot;It would be easier to find this class if it were in it's own file&quot;</p>
+</section></section>
+<section><section id="example-3" class="titleslide slide level1"><h1>Example 3</h1></section><section class="slide level6">
+
+<p><strong>Client says:</strong></p>
+<p>&quot;We think we should use javascript&quot;</p>
+</section><section class="slide level6">
+
+<figure>
+<img src="images/small-david.jpeg" alt="&quot;Maybe you shouldn&#39;t&quot;" /><figcaption>&quot;Maybe you shouldn't&quot;</figcaption>
+</figure>
+</section></section>
+    </div>
+  </div>
+
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'solarized', // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>
