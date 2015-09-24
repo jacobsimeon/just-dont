@@ -1,55 +1,38 @@
-% Maybe You Shouldn't
-
----
-
-![This is Brandon](images/brandon.jpg)
-
----
-
-![This is David](images/david.jpg)
+% Just Don't
+% Jacob
 
 ---
 
 !["Every time you say 'you should' it makes me want to punch you in the face!"](images/small-david.jpeg)
 
----
-
->__should__:  
->1. used to indicate obligation, duty, or __*correctness*__, typically when
-criticizing someone's actions.
-
-# Example 1
+# "Why don't you just..."
 
 ---
 
-"You should move that logic out of the controller"
+__Why don't__ you just...
+
+> !(for what reason or purpose)
 
 ---
 
-__Instead Try:__
+Why don't __you__ just...
 
-"This controller would have fewer responsibilities if we moved this logic out"
-
-# Example 2
-
----
-
-"You should move this class into its own file."
+> used to refer to the person or people that the speaker is addressing.
+> "are you listening?"
 
 ---
 
-__Instead Try:__
+Why don't you __just__...
 
-"It would be easier to find this class if it were in its own file"
+> simply; only; no more than
 
-# Example 3
+# Instead
 
----
+## Unload the question
+"Have you tried..."
 
-__Client says:__
+## Suggest a new idea
+"How about..."
 
-"We think we should use javascript"
-
----
-
-!["Maybe you shouldn't"](images/small-david.jpeg)
+## Give a reason
+"It would clarify concerns if..."
